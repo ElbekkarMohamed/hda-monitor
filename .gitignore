@@ -1,0 +1,4 @@
+﻿last_hash.txt
+__pycache__/
+*.log
+.env
