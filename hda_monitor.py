@@ -39,7 +39,7 @@ try:
     print("Starting HDA monitor...")
     with sync_playwright() as p:
         # headless=False so you can watch. Change to True for Task Scheduler.
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
         page.goto(
